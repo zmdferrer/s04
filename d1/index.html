@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>HTML Attributes and Links</title>
+	</head>
+	<body>
+		<!-- isang id lang sa isang html -->
+		<h2 id="top">HTML Attributes</h2>
+		<p align ="center">
+			<!-- align magchachange ng format kung center -->
+			<em>Modifiers of element behaviors.</em>
+		</p>
+
+		<h2>HTML Images</h2>
+		<p>
+			<!-- &lt; and &gt; are called html entities we used to include special characters. sample "<img>" -->
+			<em>An image can be shown using &lt;img&gt; tag along with its <strong>src</strong> attribute.</em>
+		</p>
+
+		<!-- two types of adding an image -->
+		<!-- example of relative linking = means adding image in the file. -->
+		<img src="./images/image1.jfif">
+		<!-- class = nagbibigay ng label or pangalan sa container -->
+		 <p>
+		 	<!-- code tag used to define a piece of computer code and displays text in the browser using it's default monospace font. -->
+		 	<code>
+		 		&lt; img src="./images/image1.jfif"&gt;
+		 	</code>
+		 </p>
+		<!-- Adds an image using Absolute linking -->
+		<a href="https://place-puppy.com/" target="_blank">
+			<!-- target nagoopen ng another window -->
+		<img src="https://place-puppy.com/300x300">
+		<p>
+			<code>
+				&lt; img src="https://place-puppy.com/300x300"&gt;
+			</code>
+		</p>
+
+		<p>Valid image extensions are the following:
+			<!-- pwede gamitin kay ordered lists i, a, I, A -->
+			<!-- reversed binabaliktad yung ordered list -->
+			<ol type="a" reversed>
+				<li>png</li>
+				<li>jpg</li>
+				<li>gif</li>
+				<li>webp</li>
+				<li>tiff</li>
+				<li>svg</li>
+			</ol></p>
+
+			<h2>HTML Hyperlinks</h2>
+
+			<h4>Absolute Link</h4>
+			<!-- href = hypertext reference. pag naglilink ng css ginagamit ang href -->
+			<a href="https://zuitt.co">I'm a hyperlink.</a>
+
+			<h4>Relative Link</h4>
+			<!-- ../../.html
+			../../music/listings.html -->
+
+			<p>Go to
+				<a href="./link.html">link.html</a> page.
+			</p>
+
+			<p>Go to <a href="#top">top</a>
+
+			</p>
+			<!-- class = gusto mo ng same design pero magkakahiwalay -->
+
+			<!-- ADDING MAP LINKS PUNTA KA GOOGLE MAPS THEN SEARCH THE LOCATION TAPOS BURGER SIGN TAPOS SHARE AND EMBEDDED THEN EMBED A MAP THEN PILI KA SIZE TAPOS COPY HTML THEN PASTE (SAME SA YOUTUBE BASTA COPY ANG IFRAME) -->
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.6830610575767!2d121.02225531406057!3d14.560108181973007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c900bf087fb9%3A0xf7fad322004c74d4!2sV%C3%A9rtere%20Global%20Solutions%2C%20Inc!5e0!3m2!1sen!2sph!4v1663048681798!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</body>
+</html>
